@@ -1,7 +1,7 @@
 # Workout Home Visit
 
 ## Nama Kelompok: 
-Kelompok Workout Home Visit - Kelompok 8
+Kelompok Go Work Out Kediri - Kelompok 8
 
 ## Nama Anggota:
 1. Galuh Mustika Pratiwi - Project Manager
