@@ -1,9 +1,23 @@
 @import "tailwindcss";
 
+@theme {
+  /*bagian warna dasar*/
+  --color-white: #FFFFFF;
+  --color-fit-green: #B6F200;
+  --color-fit-green-40: #DFF99A;
+  --color-black-88: #1F1F1F;
+  --color-black: #000000;
+
+  /*style font*/
+  --font-poppins: 'Poppins', sans-serif;
+}
 :root {
-  font-family: Arial, sans-serif;
+  font-family: var(--font-poppins);
+  color: var(--color-black-88);
+  background-color: var(--color-white);
 }
 
 body {
   margin: 0;
+  min-width: 320px;
 }
