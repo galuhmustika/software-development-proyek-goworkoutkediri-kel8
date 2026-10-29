@@ -1,16 +1,38 @@
-# React + Vite
+# Go Work Out Kediri-Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  Peran Frontend dalam pembangunan website Go Work Out Kediri adalah membuat dan mengembangkan tampilan user interface  untuk menyajikan informasi dan fitur website melalui tampilan yang mudah digunakan. Sistem ini merupakan pemesanan layanan homevisit workout, project ini dikembangkann sebagai bagian dari tugas kelompok mata kuliah SOftware Development.
+  Melalui sistem ini, user dapat melihat informasi program latihan dan melakukan pemesanan secara online tanpa harus menghubungi admin secara offline bertemu dengan orangnya langsung. Sementara itu admin bertugas mengelola pemesanan, menentukan trainer dan memantau aktivitas layanan.
 
-Currently, two official plugins are available:
+## Teknologi Yang Diguunakan 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+React.js: Library JavaScript untuk membangun UI berbasis komponen.
+Vite: Build tool dan development server untuk pengembangan aplikasi React.
+Tailwind CSS v4: Framework CSS untuk membuat tampilan responsif.
+JavaScript (JSX): Bahasa pemrograman untuk membangun komponen React.
+HTML5: Struktur dasar halaman web.
+Git & GitHub: Version control dan kolaborasi pengembangan.
 
-## React Compiler
+## Fitur Plan:
+Halaman Pelanggan
+  Beranda dengan informasi layanan Go Work Out Kediri.
+  Daftar program workout.
+  Galeri kegiatan.
+  Informasi layanan.
+  Formulir pemesanan workout.
+  Konfirmasi pemesanan melalui WhatsApp.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Halaman Admin
+  Login admin.
+  Dashboard admin.
+  Pengelolaan data pemesanan.
+  Penugasan trainer.
+  Pengelolaan informasi layanan.
 
-## Expanding the ESLint configuration
+## Colour Plan Website
+White #FFFFFF
+Fit Green #B6F200
+Fit Green 40% #DFF99A
+Black 88% #1F1F1F
+Black #000000
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Website ini masih dalam proses pembuatan
