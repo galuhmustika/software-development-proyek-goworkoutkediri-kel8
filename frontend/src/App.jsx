@@ -1,6 +1,7 @@
 
 import NavigasiBar from './components/NavigasiBar'
 import HeroSection from './components/HeroSection'
+import KeunggulanLayanan from './components/KeunggulanLayanan'
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
 
       <main>
         <HeroSection />
+        <KeunggulanLayanan />
+        
       </main>
     </>
   )
