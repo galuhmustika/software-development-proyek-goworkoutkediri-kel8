@@ -2,19 +2,19 @@
 
 @theme {
   /*bagian warna dasar*/
-  --color-white: #FFFFFF;
-  --color-fit-green: #B6F200;
-  --color-fit-green-40: #DFF99A;
+  --color-white: #F5F5F5;
+  --color-fit-red: #F01E2C;
   --color-black-88: #1F1F1F;
   --color-black: #000000;
+  --color-gray-soft: #B8B8B8;
 
   /*style font*/
   --font-poppins: 'Poppins', sans-serif;
 }
 :root {
   font-family: var(--font-poppins);
-  color: var(--color-black-88);
-  background-color: var(--color-white);
+  color: var(--color-white);
+  background-color: var(--color-black);
 }
 
 body {

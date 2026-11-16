@@ -12,16 +12,16 @@ function HeroSection() {
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
 
-      {/* OVERLAY GELAP AGAR TULISAN TERBACA */}
+      {/* OVERLAY */}
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-black/20" />
 
-      {/* DEKORASI BACKGROUND MERAH */}
+      {/* BACKGROUND MERAH */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20" />
 
-      {/* KONTEN HERO */}
+      {/* KONTEN */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-24">
 
-        {/* BAGIAN TEKS */}
+        {/* TEKS */}
         <div className="max-w-3xl">
 
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.3em] text-fit-red">
@@ -42,7 +42,7 @@ function HeroSection() {
             Mulai perjalanan hidup sehatmu bersama kami.
           </p>
 
-          {/* TOMBOL */}
+          {/* BUTTON */}
           <div className="mt-9 flex flex-wrap gap-4">
 
             <a
