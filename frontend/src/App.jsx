@@ -1,20 +1,15 @@
 
-import NavigasiBar from './components/NavigasiBar'
-import HeroSection from './components/HeroSection'
-import KeunggulanLayanan from './components/KeunggulanLayanan'
+import BerandaPelanggan from './Halaman/BerandaPelanggan'
+import ProgramPelanggan from './Halaman/ProgramPelanggan'
 
 function App() {
-  return (
-    <>
-      <NavigasiBar />
+  const halaman = window.location.pathname
 
-      <main>
-        <HeroSection />
-        <KeunggulanLayanan />
-        
-      </main>
-    </>
-  )
+  if (halaman === '/program') {
+    return <ProgramPelanggan />
+  }
+
+  return <BerandaPelanggan />
 }
 
 export default App

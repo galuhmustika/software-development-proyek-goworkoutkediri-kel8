@@ -27,16 +27,16 @@ function KeunggulanLayanan() {
     },
     {
       icon: FiActivity,
-      title: 'Program Beragam',
+      title: 'Program',
       description:
-        'Temukan pilihan program workout yang dapat disesuaikan dengan kebutuhan latihanmu.',
+        'Temukan pilihan program workout yang sesuai.',
     },
   ]
 
   return (
     <section
       id="keunggulan"
-       className="bg-gradient-to-br from-fit-red via-black-88 to-black px-6 py-20 text-white md:py-28"
+       className="bg-transparent px-6 py-20 text-white md:py-20"
     >
       <div className="mx-auto max-w-7xl">
 
@@ -68,7 +68,7 @@ function KeunggulanLayanan() {
             return (
               <div
                 key={index}
-                className="group rounded-2xl border border-gray-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-fit-red hover:shadow-xl"
+                className="group rounded-2xl border border-white/10 bg-black-88 p-7 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-fit-red hover:shadow-xl"
               >
                 {/* ICON */}
                 <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-[#F01E2C]/10 text-fit-red transition-colors duration-300 group-hover:bg-fit-red group-hover:text-white">
@@ -81,7 +81,7 @@ function KeunggulanLayanan() {
                 </h3>
 
                 {/* DESKRIPSI */}
-                <p className="text-sm leading-relaxed text-gray-600">
+                <p className="text-sm leading-relaxed text-white">
                   {item.description}
                 </p>
               </div>

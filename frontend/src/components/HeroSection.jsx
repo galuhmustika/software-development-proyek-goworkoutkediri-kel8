@@ -2,20 +2,20 @@ function HeroSection() {
   return (
     <section
       id="beranda"
-      className="relative flex min-h-[700px] items-center overflow-hidden bg-black"
+      className="relative flex min-h-[700px] items-center overflow-hidden bg-transparent"
     >
       {/* FOTO TRAINER SEBAGAI BACKGROUND */}
       <img
-        src="/images/Trainer-unsplash.jpg"
+        src="/images/fotoutama.jpeg"
         alt="Personal trainer sedang mendampingi klien workout"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
 
       {/* OVERLAY */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-black/20" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent" />
 
       {/* BACKGROUND MERAH */}
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-fit-red/40 via-black/20 to-transparent" />
 
       {/* KONTEN */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-24">
@@ -24,7 +24,7 @@ function HeroSection() {
         <div className="max-w-3xl">
 
           <p className="mb-5 text-sm font-bold uppercase tracking-[0.3em] text-fit-red">
-            GO WORK OUT KEDIRI
+            GO WORKOUT KEDIRI
           </p>
 
           <h1 className="text-5xl font-extrabold leading-tight text-white md:text-6xl xl:text-7xl">
